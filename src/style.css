@@ -1,0 +1,41 @@
+/* main wrapper */
+.main {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* common box style */
+.box {
+  border: 2px solid #333;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 320px;
+  background-color: #f9f9f9;
+}
+
+/* headings */
+h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* list style */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* counter number */
+h3 {
+  margin: 10px 0;
+}
+
+/* buttons */
+button {
+  padding: 6px 10px;
+  margin-right: 6px;
+  cursor: pointer;
+}
