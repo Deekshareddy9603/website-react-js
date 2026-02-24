@@ -55,7 +55,9 @@ function App() {
       .footer h4{margin-bottom:10px;color:#ffb703;}
       .footer p{margin:5px 0;}
       .reveal{opacity:0;transform:translateY(40px);transition:1s;}
-      .reveal.active{opacity:1;transform:translateY(0);}
+      .reveal.active{
+      opacity:1;transform:translateY(0);
+      }
       @keyframes slideIn{from{opacity:0; transform:translateX(-50px);}to{opacity:1; transform:translateX(0);}
       }
       @media(max-width:768px){.about-container{flex-direction:column;}.home h1{font-size:35px;}}
