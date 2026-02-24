@@ -19,8 +19,7 @@ function App() {
   }, []);
 
   return (
-    <>
-      <style>{`
+    <><style>{`
       *{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;font-family:'Segoe UI',sans-serif;}
       body{background:#f4f6f9;}
       section{padding:100px 10%;}
@@ -63,6 +62,7 @@ function App() {
       @media(max-width:768px){.about-container{flex-direction:column;}.home h1{font-size:35px;}}
       `}</style>
 
+      
       {/* NAVBAR */}
       <nav className="navbar">
         <div style={{color:"#ffb703",fontWeight:"bold"}}>WEBUILD</div>
@@ -189,6 +189,8 @@ function App() {
       </footer>
     </>
   );
+
+ 
 }
 
 export default App;
