@@ -1,3 +1,4 @@
+import { initPrefersReducedMotion } from "framer-motion";
 import React, { useEffect } from "react";
 
 function App() {
